@@ -7,11 +7,12 @@ class A {
     assert(false)
 
     print(((((((((()))))))))
-  } // <-- dec
+  } // <-- outdent
 
   init() {
-    send(msg: "hello", // <-- inc_next
-    to: "tom") // <-- indent next line
+    send(msg: 111, // <-- indent next line
+      exit(0)
+      to: 111) // <-- outdent next line
     let _ = [0,
       1,
       2]
@@ -24,12 +25,15 @@ class A {
     switch val {
     case let x as Int:
       // ..
+      break
     case x is Int:
       // ...
+      break
     default:
       return
     }
   }
+
   deinit {
     send(msg: "bye",
     to: "tom")
@@ -81,6 +85,16 @@ class A {
   // print (
   //     "hello"
   // )
+}
+
+/// asdfasdf
+private enum E {
+  /// asdfasdf
+  case adfas
+  /// asdfasdf
+  case sdfsadf, safsdf
+  /// asdfasdf
+  case asdfsa
 }
 
 class B {
