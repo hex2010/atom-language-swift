@@ -105,4 +105,9 @@ func ugly3(a: Int,
   b:(Int,Bool)) {
     //...
   }
-  func aaa() { }
+  // bad
+  func ugly4(a: Int
+    b: "string") {
+      body
+    }
+    // bad
