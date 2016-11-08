@@ -111,3 +111,8 @@ func ugly3(a: Int,
       body
     }
     // bad
+    func ugly5(a: "string"
+    b: Int) {
+    body
+  }
+  // bad
