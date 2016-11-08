@@ -19,11 +19,11 @@
   }
   {
     'name': 'storage.modifier.swift'
-    'match': '\\b(final|internal|private|fileprivate|public|open|static|required|convenience)\\b'
+    'match': '\\b(final|internal|private|fileprivate|public|open|static|required|convenience|throws)\\b'
   }
   {
     'name': 'keyword.statement.swift'
-    'match': '\\b(try|catch|repeat|break|case|continue|default|do|else|fallthrough|if|in|for|return|switch|where|while|guard|defer)\\b'
+    'match': '\\b(try|catch|throw|repeat|break|case|continue|default|do|else|fallthrough|if|in|for|return|switch|where|while|guard|defer)\\b'
   }
   {
     'name': 'support.type.swift'
